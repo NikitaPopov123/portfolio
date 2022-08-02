@@ -1,0 +1,303 @@
+@import "reset.css";
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/gilroy-bold-cufonfonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy_medium';
+    src: url(fonts/gilroy-bold-cufonfonts/Gilroy-Medium.ttf);
+}
+
+
+
+*::before,
+::after {
+ box-sizing: border-box;
+}
+
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.li_header {
+    list-style-type: none;
+    color: #828282;
+}
+
+.li_header:hover {
+    color: #070707;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.list_nav_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 33px auto;
+    column-gap: 150px;
+    font-family: 'Gilroy', sans-serif;
+
+}
+
+.nav-button {
+    display: none;
+    border: none;
+    background-color: white;
+}
+
+.border_header {
+    border: 1px solid #828282;
+    width: 940px;
+}
+
+.wrapper_header {
+    text-transform: uppercase;
+    font-size: 47px;
+    margin-top: 39px;
+}
+
+.p_header {
+    font-family: 'Gilroy', sans-serif;
+    line-height: 59px;
+    color: Black;
+}
+
+.p_yo {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.swith {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+
+}
+
+.wrapper_header {
+display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.img_header {
+
+    margin: 50px auto;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.About_me {
+
+    background-color: #F6F6F6;
+}
+
+.about_me_main {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    justify-content: center;
+
+    padding-top: 120px;
+
+    color: #070707;
+
+}
+
+.content_article {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+    padding-top: 17px;
+    padding-bottom: 107px;
+}
+
+.skills {
+    margin-top: 91px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.content_skills {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+    padding-top: 69px;
+}
+
+.img_wrapper_skills {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 90px;
+    margin-top: 82px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding: 90px 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+
+    font-family: 'Gilroy', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+
+
+    /* Black */
+
+    color: #070707;
+}
+
+.title_1 {
+    font-size: 34px;
+    font-weight: 600;
+    
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project_title {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    /* Black */
+
+    color: #070707;
+}
+
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+
+.title_1_contacts {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+    margin-bottom: 40px;
+    
+}
+
+
+.contacts-content {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 42px;
+
+    /* Black */
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #070707;
+
+
+}
+
+.contacts-content p + p{
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #070707;
+    padding: 7px 22px;
+    border-radius: 30px;
+    color: white;
+
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+
+}
+
+.btn:hover:focus {
+        background-color: #323232;
+
+}
+
+.btn:active {
+    background-color: #000000;
+    position: relative;
+    top: 1px;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.contact_footer {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}

@@ -1,0 +1,12 @@
+@media (max-width: 1230px) {
+    .list_nav_header {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+    }
+
+    .border_header {
+        display: none;
+    }
+}
